@@ -13,4 +13,8 @@ public class MemberService {
     public List<Members> getAll(){
         return membersList;
     }
+
+    public void saveMember (Members member) {
+
+    }
 }
