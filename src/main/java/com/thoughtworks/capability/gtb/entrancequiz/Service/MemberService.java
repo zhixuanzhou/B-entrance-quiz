@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
+// TODO GTB-知识点: - 不符合三层架构，缺少用于保存数据的Repository层
 public class MemberService {
     private final List<Members> membersList = new ArrayList<>();
 
